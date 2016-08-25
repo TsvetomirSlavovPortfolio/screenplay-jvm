@@ -1,4 +1,4 @@
-package org.ecomba.screenplay;
+package one.screenplay;
 
 import org.junit.Before;
 import org.junit.Test;
