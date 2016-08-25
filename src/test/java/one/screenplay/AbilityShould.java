@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.io.PrintStream;
 
-import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /**
  * Handcrafted in Europe with love by Enrique Comba Riepenhausen (ecomba).
