@@ -1,4 +1,4 @@
-group 'org.ecomba.screenplay'
+group 'one.screenplay'
 version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'

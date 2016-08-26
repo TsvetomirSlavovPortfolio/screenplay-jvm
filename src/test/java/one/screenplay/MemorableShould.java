@@ -10,14 +10,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MemorableShould {
 
     @Test
-    public void memorizeSomething() {
+    public void containAStringMemory() {
         Memorable memorable = new Memorable<>("Hey!");
 
         assertThat(memorable.value()).isEqualTo("Hey!");
     }
 
     @Test
-    public void memorizeAnything() {
+    public void containAnIntMemory() {
         Memorable memorable = new Memorable<>(42);
 
         assertThat(memorable.value()).isEqualTo(42);

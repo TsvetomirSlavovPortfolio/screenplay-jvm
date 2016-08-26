@@ -30,6 +30,14 @@ public class ActorShould {
     }
 
     @Test
+    public void returnAnAbilityLearned() {
+        TestCode testCode = new TestCode();
+        tester.learnTo(testCode);
+
+        assertThat(tester.ability(TestCode.class)).isEqualTo(testCode);
+    }
+
+    @Test
     public void remember() {
         tester.remember(new Memorable<>("Hey!"));
 

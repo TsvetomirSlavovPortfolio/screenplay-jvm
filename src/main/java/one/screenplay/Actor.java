@@ -33,6 +33,10 @@ public class Actor {
         return abilities.containsKey(abilityAcquired);
     }
 
+    public Ability<?> ability(Class ability) {
+        return abilities.get(ability);
+    }
+
     public void remember(Memorable memorable) {
         memory = memorable;
     }
